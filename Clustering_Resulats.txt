@@ -1,0 +1,27 @@
+Classer_F
+
+Cluster0   9,8,3
+Cluster1   4,6
+Cluster2   7,5
+Cluster3   2,1,0
+
+Cluster0   MidSem,FuhSen,LDIF
+Cluster1   OD CleanStore,LSM
+Cluster2   MOMIS,SWIS
+Cluster3   Mastro,KRAFT,OBSERVER
+
+--------------------------------------------
+
+Classeur_DI
+
+Cluster0   9,8,3
+Cluster1   4,6
+Cluster2   7,5
+Cluster3   2,1,0
+
+Cluster0   MidSem,FuhSen,LDIF
+Cluster1   OD CleanStore,LSM
+Cluster2   MOMIS,SWIS
+Cluster3   Mastro,KRAFT,OBSERVER
+	
+	

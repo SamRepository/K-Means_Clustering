@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 4 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     Classeur_DI
+Instances:    10
+Attributes:   4
+              system
+              UI
+              SI
+              SD
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 0.4099303404414516
+
+Initial starting points (random):
+
+Cluster 0: 4,0.55,0.42,0.38
+Cluster 1: 7,0.45,0.5,0.38
+Cluster 2: 3,0.5,0.33,0
+Cluster 3: 6,0.45,0.5,0
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2          3
+                (10.0)      (3.0)      (2.0)      (3.0)      (2.0)
+==================================================================
+system             5.5     5.3333        9.5          2          7
+UI                0.52     0.5167        0.7     0.4167        0.5
+SI               0.436     0.4467      0.635     0.2767       0.46
+SD               0.265       0.38       0.69          0      0.065
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       3 ( 30%)
+1       2 ( 20%)
+2       2 ( 20%)
+3       3 ( 30%)
+
+Classer_DI
+
+Cluster0   9,8,3
+Cluster1   4,6
+Cluster2   7,5
+Cluster3   2,1,0
+
+Cluster0   MidSem,FuhSen,LDIF
+Cluster1   OD CleanStore,LSM
+Cluster2   MOMIS,SWIS
+Cluster3   Mastro,KRAFT,OBSERVER
+
