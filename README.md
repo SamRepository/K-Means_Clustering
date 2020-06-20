@@ -1,4 +1,4 @@
-# K-Means_Clustering
+# K-Means Clustering
 
 This is an unsupervised cluster analysis for identifying groups of approaches most similar in functionality to MidSemI. We evaluated the integration systems in related works section against the assessment presented in Table 3. 
 ![](Table_3.png) 
